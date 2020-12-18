@@ -12,7 +12,7 @@ void loop() {
   
   int sensorValue = analogRead(A0);
   
-  Serial.println(sensorValue);
+  //Serial.println(sensorValue);
   if (sensorValue>=200) {
     Serial.println("off");
     digitalWrite(ledPin, LOW);
