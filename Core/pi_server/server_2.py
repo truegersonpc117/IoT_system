@@ -9,7 +9,7 @@ BUFFER_SIZE = 16 * 1024 #16 KB blocks
 
 # Bind the socket to the port
 serverAddress = (IP_ADDR_ALL, IP_PORT) 
-print('Iniciando servidor en {}, puerto {}'.format(*serverAddress))
+print('Initialazing server in {}, port {}'.format(*serverAddress))
 sock.bind(serverAddress) 
 
 sock.listen(10) #Connections in queue
